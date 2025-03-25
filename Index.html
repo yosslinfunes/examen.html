@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecnologia Oline</title>
+</head>
+
+<body>
+    <label for="codigo">Codigo del Producto</label>
+    <input type="text" id="codigo"><br><br>
+
+    <label for="producto">Nombre del Producto</label>
+    <input type="text" id="producto" placeholder="Ingrese el producto">
+    <button onclick="buscarTecnologiaOline()">Buscar</button><br><br>
+
+
+    <label for="marca">Marca del Producto</label>
+    <input type="text" id="marca"><br><br>
+
+    <label for="precio">Precio del producto</label>
+    <input type="text" id="precio"><br><br>
+
+    <label for="fecha">Fecha del Producto</label>
+    <input type="text" id="fecha"><br><br>
+
+    <button onclick="cargarTecnologiaOline()">Cargar tecnologia oline</button>
+    <button onclick="actualizarTecnologiaOline()">Actualizar Tecnologia Oline</button>
+    <button onclick="eliminarTecnologiaOline()">Eliminar Tecnologia Oline</button>
+
+    <br><br>
+    <br><br>
+    <table border="2px" width="100%" style="background-color: rgb(173, 133, 211);">
+        <tr>
+            <th><h3><i>TIENDA DE TECNOLOGIA OLINE</i></h3></th>
+        </tr>
+    </table>
+
+    <div class="container">
+
+        <table border="1px" width="100%" style="background-color: rgb(209, 196, 223);" id="TecnologiaOline">
+            <tr>
+                <th width="20%">CODIGO </th>
+                <th width="20%">PRODUCTO</th>
+                <th width="20%">MARCA</th>
+                <th width="25%">PRECIO</th>
+                <th width="25%">FECHA</th>
+
+            </tr>
+
+        </table>
+    </div>
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
